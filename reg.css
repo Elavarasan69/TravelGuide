@@ -1,0 +1,75 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header{
+
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+nav .logo{
+    width: 25%; text-align: center;
+}
+nav .Menu{
+    width: 40%; 
+    display: flex; justify-content: space-around;
+
+}
+nav .Menu a{
+    width: 25%;
+    text-decoration: none;  color:white;
+    font-weight: bold;
+}
+section .Wrapper{
+    width: 400px;
+    height: 450px;
+    color: #000;
+    top:50%;
+    left:50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+}
+.Wrapper h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    margin-bottom: 8%; 
+}
+.Wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Wrapper input[type=text], .Wrapper input[type=password]{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 20px;
+    opacity: 1;
+    color: black;
+}
+.Wrapper input[type=submit]{
+    border-radius:40px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #00b894;
+    color:white;
+    width: 100px;
+    height: 50px;
+}
